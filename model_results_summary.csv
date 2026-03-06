@@ -1,0 +1,5 @@
+Model,Accuracy,F1_macro,Train_time_s,Inference_time_s,Complexity_proxy
+Logistic Regression (Green),0.9532,0.9533,1.1291,0.018,3378
+MLP (100 hidden units) (Red),0.9464,0.9464,15.3061,0.0231,56906
+Random Forest (200 trees) (Red),0.9281,0.9261,4.4081,0.0711,200
+k-NN (k=5) (Green),0.8843,0.8811,0.0944,0.5219,7352
