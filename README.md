@@ -122,3 +122,72 @@ Example outputs include:
 ---
 
 # Project Structure
+project/
+│
+├── notebooks/
+│ └── cancer_detection.ipynb
+│
+├── models/
+│ └── trained_model.keras
+│
+├── results/
+│ ├── roc_curve.png
+│ ├── pr_curve.png
+│ ├── training_curves.png
+│ └── gradcam_examples.png
+│
+├── dataset/
+│ └── chestxray14
+│
+└── README.md
+
+
+---
+
+# Technologies Used
+
+Python  
+TensorFlow / Keras  
+PyTorch utilities  
+NumPy / Pandas  
+Matplotlib / Seaborn  
+
+Explainability tools:
+
+- Grad-CAM
+- LIME
+- SHAP
+
+---
+
+# Future Work
+
+Several improvements could further strengthen this research:
+
+- Clinical evaluation with radiologists
+- Integration into hospital workflows
+- Testing with larger balanced datasets
+- Extension to multi-modal medical data
+- Real-time AI-assisted diagnostic systems
+
+---
+
+# Research Contribution
+
+This project demonstrates how **Explainable AI can bridge the gap between deep learning models and clinical trust**, combining performance with interpretability.
+
+By highlighting relevant image regions, the system moves beyond a black-box prediction and offers a **more transparent AI-assisted diagnostic approach**.
+
+---
+
+# Author
+
+José Alberto Cruz Sánchez  
+MSc Artificial Intelligence  
+National College of Ireland
+
+---
+
+# License
+
+This project is for research and educational purposes.
